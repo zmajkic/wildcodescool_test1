@@ -1,0 +1,25 @@
+
+
+
+body {
+  background-color: lightgoldenrodyellow;
+ }
+
+ div {
+  background-image: url(‘https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg’);
+}
+
+.container {
+  font-weight: italic;
+}
+
+#history {
+  font-weight bold;
+}
+
+
+#welcome {
+  height:400px;
+  background-image: url('./src/logo.png');
+  background-size: cover;
+ }
