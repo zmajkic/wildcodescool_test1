@@ -1,6 +1,8 @@
-// Define variable
+/* If you're feeling fancy you can add interactivity 
+    to your site with Javascript */
+
 const message =
-  "Thank you for submitting your message. We will respond as soon as possible.";
+  "Thank you for submitting your request. The crew will respond shortly.";
 
 document
   .getElementById("contactForm")
