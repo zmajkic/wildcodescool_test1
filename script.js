@@ -1,17 +1,10 @@
-let first = document.querySelector(".first");
-let iframe = document.querySelector("iframe");
-let btn = document.querySelector("button");
+// Define variable
+const message =
+  "Thank you for submitting your message. We will respond as soon as possible.";
 
-btn.addEventListener("click", () => {
-  var html = first.textContent;
-  iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
-});
-
-let timeout = null;
-first.addEventListener("keyup", e => {
-  clearTimeout(timeout);
-  timeout = setTimeout(function() {
-    var html = first.textContent;
-    iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
-  }, 600);
-});
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    alert(message);
+  });

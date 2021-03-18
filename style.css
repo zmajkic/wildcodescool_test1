@@ -1,25 +1,27 @@
-
-
-
 body {
   background-color: lightgoldenrodyellow;
- }
-
- div {
-  background-image: url(‘https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg’);
+  font-family: "Gill Sans", sans-serif;
+  color: #333;
 }
 
-.container {
-  font-weight: italic;
+section {
+  padding: 20px;
 }
-
-#history {
-  font-weight bold;
-}
-
 
 #welcome {
-  height:400px;
-  background-image: url('./src/logo.png');
+  height: 400px;
+  background-image: url("assets/ship-at-sea.jpg");
   background-size: cover;
- }
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
